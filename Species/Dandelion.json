@@ -1,0 +1,29 @@
+﻿{
+  "SpeciesID": "Dandelion",
+  "AppearanceName": "Dandelion",
+  "LifecycleStrategy": "Standard",
+  "EnergyStrategy": "Photosynthesis",
+  "GrowthStrategy": "Herbaceous",
+  "ReproductionStrategy": "WindDispersal",
+  "Morphology": { "LeafShape": "Lobed" },
+  "BaseGene": {
+    "GrowthSpeed": 0.3,
+    "BranchingChance": 0,
+    "LeafSize": 0.8,
+    "FlowerChance": 0.8,
+    "ApicalDominance": 1,
+    "TrunkThickness": 0.1,
+    "MaxAge": 500,
+    "EnergyToFlower": 80,
+    "SeedCount": 15,
+    "FruitSize": 0.1,
+    "NutrientUptakeRates": {
+      "Nitrogen": 0.5,
+      "Phosphorus": 0.2,
+      "Potassium": 0.3,
+      "Magnesium": 0.1
+    },
+    "PossibleFlowerColors": [ "Default" ],
+    "VariegationChance": 0.01
+  }
+}

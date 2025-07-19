@@ -1,0 +1,29 @@
+﻿{
+  "SpeciesID": "Rice",
+  "AppearanceName": "Rice",
+  "LifecycleStrategy": "Standard",
+  "EnergyStrategy": "Photosynthesis",
+  "GrowthStrategy": "Herbaceous",
+  "ReproductionStrategy": "WindDispersal",
+  "Morphology": { "LeafShape": "Simple" },
+  "BaseGene": {
+    "GrowthSpeed": 0.5,
+    "BranchingChance": 0,
+    "LeafSize": 0.7,
+    "FlowerChance": 0.9,
+    "ApicalDominance": 1,
+    "TrunkThickness": 0.05,
+    "MaxAge": 300,
+    "EnergyToFlower": 100,
+    "SeedCount": 100,
+    "FruitSize": 0.05,
+    "NutrientUptakeRates": {
+      "Nitrogen": 0.6,
+      "Phosphorus": 0.2,
+      "Potassium": 0.2,
+      "Magnesium": 0.1
+    },
+    "PossibleFlowerColors": [ "Default" ],
+    "VariegationChance": 0
+  }
+}

@@ -1,0 +1,29 @@
+﻿{
+  "SpeciesID": "Maple",
+  "AppearanceName": "Maple",
+  "LifecycleStrategy": "Standard",
+  "EnergyStrategy": "Photosynthesis",
+  "GrowthStrategy": "Tree",
+  "ReproductionStrategy": "WindDispersal",
+  "Morphology": { "LeafShape": "Palmate" },
+  "BaseGene": {
+    "GrowthSpeed": 0.12,
+    "BranchingChance": 0.6,
+    "LeafSize": 1.0,
+    "FlowerChance": 0.02,
+    "ApicalDominance": 0.7,
+    "TrunkThickness": 0.5,
+    "MaxAge": 6000,
+    "EnergyToFlower": 2000,
+    "SeedCount": 10,
+    "FruitSize": 0.3,
+    "NutrientUptakeRates": {
+      "Nitrogen": 0.4,
+      "Phosphorus": 0.3,
+      "Potassium": 0.3,
+      "Magnesium": 0.2
+    },
+    "PossibleFlowerColors": [ "Default" ],
+    "VariegationChance": 0.01
+  }
+}

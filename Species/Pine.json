@@ -1,0 +1,29 @@
+﻿{
+  "SpeciesID": "Pine",
+  "AppearanceName": "Pine",
+  "LifecycleStrategy": "Standard",
+  "EnergyStrategy": "Photosynthesis",
+  "GrowthStrategy": "Conifer",
+  "ReproductionStrategy": "WindDispersal",
+  "Morphology": { "LeafShape": "Needle" },
+  "BaseGene": {
+    "GrowthSpeed": 0.15,
+    "BranchingChance": 0.8,
+    "LeafSize": 0.3,
+    "FlowerChance": 0.05,
+    "ApicalDominance": 0.9,
+    "TrunkThickness": 0.4,
+    "MaxAge": 5000,
+    "EnergyToFlower": 1500,
+    "SeedCount": 8,
+    "FruitSize": 0.8,
+    "NutrientUptakeRates": {
+      "Nitrogen": 0.5,
+      "Phosphorus": 0.2,
+      "Potassium": 0.2,
+      "Magnesium": 0.1
+    },
+    "PossibleFlowerColors": [ "Default" ],
+    "VariegationChance": 0.001
+  }
+}

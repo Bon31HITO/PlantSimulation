@@ -1,0 +1,29 @@
+﻿{
+  "SpeciesID": "Pineapple",
+  "AppearanceName": "Pineapple",
+  "LifecycleStrategy": "Standard",
+  "EnergyStrategy": "Photosynthesis",
+  "GrowthStrategy": "Rosette",
+  "ReproductionStrategy": "WindDispersal",
+  "Morphology": { "LeafShape": "Simple" },
+  "BaseGene": {
+    "GrowthSpeed": 0.2,
+    "BranchingChance": 0,
+    "LeafSize": 1.5,
+    "FlowerChance": 0.1,
+    "ApicalDominance": 1,
+    "TrunkThickness": 0.3,
+    "MaxAge": 1000,
+    "EnergyToFlower": 800,
+    "SeedCount": 5,
+    "FruitSize": 1.5,
+    "NutrientUptakeRates": {
+      "Nitrogen": 0.3,
+      "Phosphorus": 0.3,
+      "Potassium": 0.4,
+      "Magnesium": 0.2
+    },
+    "PossibleFlowerColors": [ "Default" ],
+    "VariegationChance": 0
+  }
+}
